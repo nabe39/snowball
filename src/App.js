@@ -51,7 +51,7 @@ function App() {
         </Chat>
       ) : (
         <>
-          <SignUp setIsAuth={setIsAuth} />
+          <SignUp setIsAuth={setIsAuth}  />
           <Login setIsAuth={setIsAuth} />
         </>
       )}
